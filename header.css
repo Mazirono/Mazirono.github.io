@@ -1,0 +1,61 @@
+@media screen and (min-width: 1024px)
+{
+		header
+	{
+	    display : flex;
+	    
+	}
+
+	header h1
+	{
+		font-size: 3em; 
+	}
+
+	header h2
+	{
+		font-size: 2em; 
+	}
+
+    .element_haut:first-child
+	{
+	    width: 25%;
+	    background-color: #FDD835;
+	    
+	}
+		.element_haut:nth-child(2)
+	{
+	    
+	    width: 66.7%;
+	    margin-left: 5%;
+	    margin-top: 2.5%;
+	}
+
+	img
+	{
+		width: 55%;
+		height:65%;
+	    margin-left: 22%;
+	    margin-top: 13%;
+	}
+
+   
+}
+
+
+img
+{
+	border-radius: 50%;
+}
+
+
+#prenom
+{
+    color: #FDD835
+}
+
+#souligner_devel
+{
+    text-decoration: underline ;
+    text-decoration-color:  #FDD835;
+}
+

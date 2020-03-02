@@ -1,0 +1,57 @@
+/*Applicable à toute la page*/
+body
+{ 
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+
+@media screen and (min-width: 1024px)
+{
+  p, ul
+  {
+    font-size: 1.3em;
+  }
+
+  
+}
+
+   
+h1
+{
+    text-transform: uppercase;
+
+}
+
+li 
+{
+  list-style-type: none;
+}
+
+
+.bordure_black
+{
+   
+   border: 6px black solid;
+   background: black;
+   color: #FDD835;
+   text-align: center;
+   
+}
+aside .fas
+ {
+  color: #000000;
+ }
+
+ .fas
+ {
+  color: #FDD835;
+ }
+
+
+.fa-stamp, .fa-briefcase, .fa-pencil-alt
+{
+  margin-right: 5%;
+}
