@@ -11,7 +11,7 @@
 	}
 	
 
-    .element_milieu:first-child 
+    .element_milieu:first-child , .element_milieu:nth-child(3) 
 	{
 
 		width: 25%;
@@ -26,14 +26,15 @@
 	}
 
 
-	.element_milieu:nth-child(2) 
+	.element_milieu:nth-child(2) ,.element_milieu:nth-child(4) 
 	{
 	     
-		width: 66.7%;
+		width: 66.7%; 
+
 	}
 
 
-	.element_milieu:nth-child(3) 
+	
 	{
   	
 	    width: 25%;
@@ -55,33 +56,29 @@
 
 	}
 
-	.element_milieu:nth-child(4) 
-	{
-	  
-	    width: 66.7%;
-	}
-	.liste_element:nth-child(1),.liste_element:nth-child(2)
+	.liste_element:nth-child(1)
 	{
 		
-		height: 14%;
-		margin-top: 3%;
+		
+		margin-top: 4px;
+		
 
 	}
 	.liste_element:nth-child(2)
 	{
-		margin-left: 5%;
-	}
-	.liste_element:nth-child(3)
-	{
-		margin-left: 20.5%;
-		width: 50%;
-		height: 120%;
-		
+		margin-left: 9%;
 	}
 
+		
 }
 
 
+.liste_element:nth-child(2)
+	{
+
+		padding-left: 0;
+		margin-top: 0;
+	}
 
 aside  p , aside li
 {
@@ -94,12 +91,13 @@ aside  p , aside li
 {
 	display: flex;
 	flex-wrap: wrap;
-	margin-top: 3%;
+	
 }
 
 #section1_formation h1, #section2_experience h1
 {
 	font-size: 1.5em;
+	margin-top: 0;
 }
 #section1_formation h2, #section2_experience h2
 {
@@ -119,8 +117,9 @@ aside  p , aside li
 	width: 20%;
 	display: flex;
 	flex-wrap: wrap;
-	height: 50%;
-	margin-top: 1.9%;
+	padding-top: 0;
+	margin-top: 4%;
+	
 
 	
 }
@@ -128,7 +127,9 @@ aside  p , aside li
 .section1_element:nth-child(2), .section1_element:nth-child(4), .section2_element:nth-child(2), .section2_element:nth-child(4), .section2_element:nth-child(6)
 {
 	
-	width : 60%;
+	width : 66.7%;
+	margin-top: 4%;
+
 
 
 }
