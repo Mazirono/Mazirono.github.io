@@ -73,13 +73,13 @@
 /* Middle */
 @media screen and (max-width: 1024px)
 {
-
+	
 	#milieu
 	{
 		display: flex;
     	flex-direction: column;
 	}
-
+	
     .element_milieu:first-child 
 	{
 		order: 1;
@@ -104,6 +104,7 @@
 	    background-color: #FDD835;
 	}
 
+	
 	#a_propos p
 	{
 
@@ -133,8 +134,7 @@
 	.section1_element:first-child, .section1_element:nth-child(3), .section2_element:first-child, .section2_element:nth-child(3), .section2_element:nth-child(5)
 	{
 		width: 27%;
-		margin: 0;
-		padding : 0; 
+		padding: 0;
 	}
 }
 
@@ -202,7 +202,14 @@
 		
 		
 	}
-	
+	.section3_element:first-child, .section3_element:nth-child(3)
+	{
+		padding:0;
+	}
+	.section3_element:nth-child(2)
+	{
+		padding-left: 30px;
+	}
 		
 
 	
