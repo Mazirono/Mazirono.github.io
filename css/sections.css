@@ -10,6 +10,16 @@
 	     
 	}
 	
+	#section1_formation h1, #section2_experience h1
+	{
+		font-size: 1.5em;
+		margin-top: 0;
+	}
+	#section1_formation h2, #section2_experience h2
+	{
+		font-size: 1.4em;
+	}
+
 
     .element_milieu:first-child , .element_milieu:nth-child(3) 
 	{
@@ -94,15 +104,6 @@ aside  p , aside li
 	
 }
 
-#section1_formation h1, #section2_experience h1
-{
-	font-size: 1.5em;
-	margin-top: 0;
-}
-#section1_formation h2, #section2_experience h2
-{
-	font-size: 1.4em;
-}
 
 
 #formation, #experience_professionelle
