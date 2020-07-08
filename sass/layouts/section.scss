@@ -1,0 +1,51 @@
+#btn_supprimer_panier{
+    margin-top: 10px;
+}
+img{
+    width : 200px;
+}
+section{
+    text-align: center;
+    .liste_ours{
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        
+        width: 50%;
+        margin: 27px auto 8px auto;
+        .name_ours{
+            width: 50%;
+        }
+        .price_ours{
+            width: 50%;
+        }
+        .picture_ours{
+            width : 100%;
+            margin-top: 10px;
+        }
+        .color_ours{
+            width: 100%;
+        }
+        .description_ours{
+            width: 100%;
+        }
+        .li_confirmation_ours{
+            width: 100%;
+        }
+        #li_ajout_panier
+        {
+            width: 100%;
+        }
+        .li_supprimer_ours_panier{
+            width: 100%;
+        }
+        
+    }
+    
+}
+
+form{
+    button{
+        margin-bottom : 10px;
+    }
+}

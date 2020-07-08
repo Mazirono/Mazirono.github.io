@@ -1,0 +1,40 @@
+$breakpoint-portable: 600px;
+@media screen and  (max-width: $breakpoint-portable) {
+    section{
+        .liste_ours{
+            width: 80%;
+        }
+    }
+    footer ul{
+        
+        flex-direction: column;
+        li{
+            &:first-child{
+                margin-left: 0;
+                margin-right: 0;}
+            &:last-child{
+                margin-left: 0;
+                margin-right: 0;
+                }        
+            
+        }
+    }
+    nav ul{
+        
+        flex-direction: column;
+        li{
+            &:first-child{
+                margin-left: 0;
+                margin-right: 0;}
+            &:last-child{
+                margin-left: 0;
+                margin-right: 0;
+            }        
+            
+        }
+    }
+    .btn_confirmation_ours{
+        height: 40px;
+    }
+  
+}
